@@ -3,4 +3,30 @@ layout: default
 title: HomePage
 ---
 
-<h1>HomePage {{ data.project }} </h1>
+<header class="header">
+    <div class="container">
+        <div class="header__top">
+            <select id="curent">
+                <option value="us">$US</option>
+                <option value="ua">₴UA</option>
+            </select>
+                
+            <div class="account">
+                <a href="#" class="account__link">
+                    <svg class="account__icon">
+                        <use xlink:href="#avatar"></use>
+                    </svg>
+                    <div class="account__text">my account</div>
+                </a>            
+            </div>
+            <div class="serch">
+                <svg class="serch__icon">
+                    <use xlink:href="#serch"></use>
+                </svg>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+<!-- <img src="assets/img/logo.png" alt="logo"> -->

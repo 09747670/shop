@@ -1,3 +1,36 @@
-html{
-    margin: 0;
+@import "vars";
+@import "fonts";
+
+/* Default styles */
+
+html {
+    font-size: 15px;
 }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $white;
+    color: $gray_light;
+    font-size: 1rem;
+    // line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/buttons";
+
+
+
+/* Blocks */
+@import "blocks/header";
