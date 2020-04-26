@@ -1,0 +1,33 @@
+
+.account{
+    width: 125px;
+    border-left: 1px solid $gray_light;
+
+    
+}
+.account__text{
+    margin: auto 0;
+    color: $white;
+    
+    font-size: 0.65rem;
+    
+    text-transform: uppercase;
+}
+
+.account__link{
+    text-decoration: none;       
+}
+
+.account__wrape{
+    display: flex;
+    justify-content: center;
+}
+
+.account__icon {
+    margin-right: 10px;
+    
+    width: 15px;
+    height: 15px;
+
+    fill: $white;
+}

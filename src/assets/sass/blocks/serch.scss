@@ -1,0 +1,17 @@
+.serch{
+    display: flex;
+    justify-content: center;   
+
+    width: 35px;
+
+    border-left: 1px solid $gray_light;
+    border-right: 1px solid $gray_light;
+    
+}
+
+.serch__icon {
+    width: 20px;
+    height: 20px;
+
+    fill: $white;
+}

@@ -1,27 +1,20 @@
+.wrap{
+    height: 2rem;
+    
+    background-color: $black;
+
+}
 .header__top{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
     height: 2rem;
+    
     background-color: $black;
 }
 
-.account__text{
-    color: $white;
-}
+.header__inner{
+    height: 105px;
 
-.account__icon {
-    width: 20px;
-    height: 20px;
-
-    fill: $white;
-}
-
-.serch{
-    
-}
-
-.serch__icon {
-    width: 20px;
-    height: 20px;
-
-    fill: $white;
 }

@@ -1844,24 +1844,145 @@ input[type="button"].btn-block {
 }
 
 /* Blocks */
-.header__top {
-    display: flex;
+.wrap {
     height: 2rem;
     background-color: #000;
 }
 
-.account__text {
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 2rem;
+    background-color: #000;
+}
+
+.header__inner {
+    height: 105px;
+}
+
+.curent {
+    width: 70px;
+    background-color: #000;
     color: #fff;
+    border: none;
+    border-left: 1px solid #6b6b6b;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    outline: none;
+}
+
+.curent:after {
+    border: none;
+}
+
+.account {
+    width: 125px;
+    border-left: 1px solid #6b6b6b;
+}
+
+.account__text {
+    margin: auto 0;
+    color: #fff;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+}
+
+.account__link {
+    text-decoration: none;
+}
+
+.account__wrape {
+    display: flex;
+    justify-content: center;
 }
 
 .account__icon {
-    width: 20px;
-    height: 20px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
     fill: #fff;
+}
+
+.serch {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    border-left: 1px solid #6b6b6b;
+    border-right: 1px solid #6b6b6b;
 }
 
 .serch__icon {
     width: 20px;
     height: 20px;
     fill: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topmenu > li {
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+
+.topmenu > li:last-child {
+    margin-right: 0;
+}
+
+a {
+    display: block;
+    width: 100px;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    font-size: 1rem;
+    transition: .5s linear;
+}
+
+.fa {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    border: 5px solid transparent;
+    border-top: 5px solid #000;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: 0.5s ease-in-out;
+}
+
+.menu .submenu {
+    transform: scaleY(0);
+    transform-origin: 0 0;
+}
+
+.menu ul li:hover .submenu {
+    transform: scaleY(1);
+}
+
+.menu ul a {
+    color: #000;
+}
+
+.submenu li a {
+    border-bottom: 1px solid rgba(15, 14, 14, 0.342);
+    color: #000;
 }

@@ -2,31 +2,95 @@
 layout: default
 title: HomePage
 ---
-
-<header class="header">
+<div class="wrap">
     <div class="container">
         <div class="header__top">
-            <select id="curent">
+            <select class="curent" id="curent" >
                 <option value="us">$US</option>
                 <option value="ua">₴UA</option>
             </select>
                 
             <div class="account">
-                <a href="#" class="account__link">
-                    <svg class="account__icon">
-                        <use xlink:href="#avatar"></use>
-                    </svg>
-                    <div class="account__text">my account</div>
+                <a class="account__link" href="#">
+                    <div class="account__wrape">
+                        <svg class="account__icon">
+                            <use xlink:href="#avatar"></use>
+                        </svg>
+                    
+                        <div class="account__text">my account</div>
+                    </div>
                 </a>            
-            </div>
+            </div><!-- close account -->
+
             <div class="serch">
                 <svg class="serch__icon">
                     <use xlink:href="#serch"></use>
                 </svg>
             </div>
             
-        </div>
-    </div>
+        </div><!-- close header__top -->
+    </div><!-- close container -->
+</div><!-- close wrap -->
+<header class="header">
+    <div class="container">
+       
+        <div class="header__inner">
+            <div class="row">
+                <div class="col-lg-2">
+                    <a class="logo" href="#">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <nav class="menu">
+                        
+                        <ul class="topmenu">
+                            <li><a href="#">new<i class="fa"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="">Item 1</a></li>
+                                    <li><a href="">Item 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">designes<i class="fa"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="">Item 1</a></li>
+                                    <li><a href="">Item 2</a></li>
+                                </ul>
+                            </li>
+                          <li><a href="#">women<i class="fa"></i></a>
+                            <ul class="submenu">
+                              <li><a href="">Item 1</a></li>
+                              <li><a href="">Item 2</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">men<i class="fa"></i></a>
+                            <ul class="submenu">
+                                <li><a href="">Item 1</a></li>
+                                <li><a href="">Item 2</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">clearence<i class="fa"></i></a>
+                            <ul class="submenu">
+                                <li><a href="">Item 1</a></li>
+                                <li><a href="">Item 2</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </nav>
+
+
+                </div>
+                <div class="col-lg-2">
+                    cart
+                </div>
+            </div>
+            
+
+
+        </div> <!-- close header__inner -->
+
+    </div> <!-- close container -->
+    
 </header>
 
-<!-- <img src="assets/img/logo.png" alt="logo"> -->
+
