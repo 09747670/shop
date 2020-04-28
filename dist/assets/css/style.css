@@ -1890,6 +1890,7 @@ input[type="button"].btn-block {
 
 .account__link {
     text-decoration: none;
+    width: 8.3rem;
 }
 
 .account__wrape {
@@ -1918,12 +1919,17 @@ input[type="button"].btn-block {
     fill: #fff;
 }
 
+.logo img {
+    margin-top: 2rem;
+}
+
 nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
     height: 100%;
+    margin-top: .6rem;
 }
 
 ul {
@@ -1956,6 +1962,7 @@ a {
     content: '';
     position: absolute;
     bottom: 10px;
+    margin-left: 5px;
     border: 5px solid transparent;
     border-top: 5px solid #000;
 }
@@ -1985,4 +1992,55 @@ a {
 .submenu li a {
     border-bottom: 1px solid rgba(15, 14, 14, 0.342);
     color: #000;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    width: 215px;
+    height: 30px;
+    border: 1px solid #b3b3b3;
+    margin-top: 1.6rem;
+}
+
+.fa_cart {
+    margin-left: 100px;
+    margin-bottom: 32px;
+    border-top: 5px solid #b3b3b3;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 30px;
+    border: 1px solid #b3b3b3;
+    border-top: none;
+}
+
+.total__icon {
+    width: 20px;
+    height: 20px;
+    fill: #b3b3b3;
+    margin-right: 45px;
+}
+
+.total__wrap {
+    display: flex;
+    color: #b3b3b3;
+}
+
+.total__items {
+    padding-right: 10px;
+    border-right: 1px solid #b3b3b3;
+}
+
+.total__price {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.slider {
+    margin-top: 20px;
 }

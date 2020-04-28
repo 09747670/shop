@@ -1,0 +1,31 @@
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 30px;
+    border: 1px solid #b3b3b3;
+    border-top: none;
+    
+}
+.total__icon {
+    width: 20px;
+    height: 20px;
+    
+    fill:  #b3b3b3;
+
+    margin-right: 45px;
+}
+.total__wrap{
+    display: flex;
+    color:#b3b3b3;
+    
+}
+.total__items{
+    padding-right: 10px;
+    border-right: 1px solid #b3b3b3;
+}
+.total__price{
+    margin-right: 20px;
+    margin-left: 10px;
+}
