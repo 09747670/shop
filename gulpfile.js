@@ -90,7 +90,7 @@ function css() {
         extname: ".css"
     }))
     .pipe(dest(path.build.css))
-    .pipe(browsersync.stream());;
+    .pipe(browsersync.stream());
 
 }
 
