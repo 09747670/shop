@@ -1,0 +1,67 @@
+// .wrap__social{
+//     height: 55px;
+
+    
+//     background: #ededed;
+    
+//     position: absolute;
+//     left: 0;
+    
+//     width: 100%;
+//     z-index: 1;
+// }
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 55px;
+
+    margin-top: 100px;
+
+    background: #ededed;
+    z-index: 5;
+    position: relative;
+
+}
+
+.social__net svg{
+    fill: $gray_light;
+    
+    margin: 0 20px;
+}
+
+.email{
+    font-weight: 600;
+}
+.email__add{
+    margin-left: 10px;
+
+    height: 35px;
+
+    padding: 0;
+
+    border: none;
+    
+}
+
+.email__button{
+    display: initial;
+    
+    padding: 8px 12px;
+
+    background: #fd926d;
+    box-shadow: 0 -3px rgb(221,107,68) inset;
+    transition: 0.2s;
+    
+    cursor: pointer;
+
+    color: $white;
+
+    
+
+    &:hover{
+        background: rgb(221, 107, 68);
+    }
+}

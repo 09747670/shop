@@ -1857,10 +1857,6 @@ input[type="button"].btn-block {
     background-color: #000;
 }
 
-.header__inner {
-    height: 105px;
-}
-
 .curent {
     width: 70px;
     background-color: #000;
@@ -2192,6 +2188,47 @@ a.button__shop:active {
     box-shadow: 0 -3px #dd6b44 inset;
 }
 
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    margin-top: 100px;
+    background: #ededed;
+    z-index: 5;
+    position: relative;
+}
+
+.social__net svg {
+    fill: #6b6b6b;
+    margin: 0 20px;
+}
+
+.email {
+    font-weight: 600;
+}
+
+.email__add {
+    margin-left: 10px;
+    height: 35px;
+    padding: 0;
+    border: none;
+}
+
+.email__button {
+    display: initial;
+    padding: 8px 12px;
+    background: #fd926d;
+    box-shadow: 0 -3px #dd6b44 inset;
+    transition: 0.2s;
+    cursor: pointer;
+    color: #fff;
+}
+
+.email__button:hover {
+    background: #dd6b44;
+}
+
 /* vendor libs */
 /* Slider */
 .slick-slider {
@@ -2293,7 +2330,6 @@ a.button__shop:active {
 }
 
 .slick-dots {
-    width: 100%;
     margin: 0;
     padding: 0;
     border: 0;

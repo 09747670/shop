@@ -4,7 +4,7 @@
     justify-content: center;
     width: 215px;
     height: 30px;
-    border: 1px solid #b3b3b3;
+    border: 1px solid $gray;
     border-top: none;
     
 }
@@ -12,18 +12,18 @@
     width: 20px;
     height: 20px;
     
-    fill:  #b3b3b3;
+    fill:  $gray;
 
     margin-right: 45px;
 }
 .total__wrap{
     display: flex;
-    color:#b3b3b3;
+    color:$gray;
     
 }
 .total__items{
     padding-right: 10px;
-    border-right: 1px solid #b3b3b3;
+    border-right: 1px solid $gray;
 }
 .total__price{
     margin-right: 20px;
